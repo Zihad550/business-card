@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+p {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.card {
+  width: 40vw;
+  height: 40vh;
+  padding: 0.4rem;
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.card-text a {
+  text-decoration: none;
+}
